@@ -1,6 +1,6 @@
 First Review Comments:
 1. Avoid setting padding and margins for each side individually [Done]
-2. Have separate class for headings, to avoid putting a style and rolling it back for the rest of the block[done]
-3. Use ul li tags instead of p tags where the data shown is actually a list.
-4. Name the css classes more specifically where every aplicable[done]
-5. Creale multiple less files to ensure that common styles are at one place and the rest is more specific for the individual html pages[done]
+2. Have separate class for headings, to avoid putting a style and rolling it back for the rest of the block[Done]
+3. Use ul li tags instead of p tags where the data shown is actually a list.[Done]
+4. Name the css classes more specifically where every aplicable[Done]
+5. Creale multiple less files to ensure that common styles are at one place and the rest is more specific for the individual html pages[Done]
