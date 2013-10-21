@@ -28,17 +28,10 @@ body
   background-image: url('../images/bg.png');
 }
 
-.gap{
-  height: 3px;
-}
-
 .panel{
   margin:0 auto;
   font-family: systemFont;
-  text-align:center;
-  font-weight: 900;
   
-  letter-spacing:10px;
   
   padding-top: 0px;
   
@@ -48,100 +41,26 @@ body
   border-right-color: @dark-bevel-color;
   border-top-color: @light-bevel-color;
   border-left-color: @light-bevel-color;
-  color: @panel-text-color;
   border-style: solid;
   border-width: 1px;
 }
 
-.panel .title{
-}
-
-.panel .selected{
-  background-color: @selected-color;
-  text-shadow: 2px 2px @text-shadow-color;
-  line-height: 16px;
-}
-
-.panel .selector{
-  float: right;
-}
-
-.panel .selector-text{
-  display: inline-block; 
-  width: 160px; 
-  text-align: center;
-}
-
-.panel p{
-  font-size: 13px;
-  font-weight: 900;
-  text-align: left;
-  line-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  
-}
-
-.panel .title{
-  background-color: @title-color;
-  text-shadow: 2px 2px @text-shadow-color;
-  text-align: center;
-  line-height: 16px;
-}
-
 .content{
+  margin:10px;
   margin-top: 0px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
   
+  padding:2px;
   padding-bottom: 10px;
   padding-top: 5px;
-  padding-left: 2px;
-  padding-right: 2px;
   
 
   background-color: #000;
-  border-bottom-color: #fff;
-  border-right-color: #fff;
+  border-color: #fff;
   border-top-color: #656565;
   border-left-color: #656565;
   color: #fff;
   border-style: solid;
   border-width: 1px;
-  
-  letter-spacing: 0px;
-}
-
-.textbox{
-  .panel;
-  letter-spacing: 0px;
-}
-
-.titled-text-input{
-  .panel;
-  padding :2px;
-  padding-top: 0;
-  width:183px;
-  color: @text-input-title-color;
-  letter-spacing: 0px;
-  font-size: 11px;
-  text-align: left;
-  text-shadow: 1px 1px @text-shadow-color-title;
-}
-
-.titled-text-input input{
-  .content;
-  font-size: 11px;
-  font-family: systemFont;
-  background-color:@input-background-color;
-  height: 15px;
-  width: 175px;
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-bottom: 2px;
-  text-shadow: 2px 2px @text-shadow-color;
-  padding: 0;
 }
 
 .anchor{
